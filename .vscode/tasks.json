@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build and run",
+            "type": "shell",
+            "command": "& \"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe\" main.c -o main.exe; if ($?) { ./main.exe }",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
